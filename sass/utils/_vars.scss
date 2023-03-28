@@ -1,0 +1,31 @@
+@use 'sass:string';
+
+$br4: 4px;
+
+$fonts: (
+    'rob': "'Roboto', sans-serif",
+    'ral': "'Raleway', sans-serif",
+);
+
+$colors: (
+    'primary': #212121,
+    'secondary': #2196f3,
+    'tertiary' : #afb1b8,
+);
+
+
+$animation: (
+    'cubic-bezier': cubic-bezier(0.4, 0, 0.2, 1),
+);
+
+@function getFont($font) {
+    @return string.unquote(map-get($fonts, $font));
+}
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+}
+
+@function getAnimation($key) {
+    @return map-get($animation, $key);
+}
