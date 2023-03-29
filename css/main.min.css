@@ -13,9 +13,16 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.section--silver {
+  background-color: #f5f4fa;
 }
 
 .container {
@@ -73,4 +80,50 @@ a {
 .clients__link:is(:hover, :focus) {
   border-color: #2196f3;
   fill: #2196f3;
+}
+
+.team {
+  text-align: center;
+}
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+.team__item {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team figcaption {
+  padding: 30px 0;
+}
+.team__description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team__description--name {
+  padding-bottom: 10px;
+}
+.team__description--text {
+  color: #757575;
+  font-weight: 400;
+  padding-bottom: 16px;
 }/*# sourceMappingURL=main.min.css.map */

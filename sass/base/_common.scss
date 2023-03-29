@@ -14,9 +14,18 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &--silver {
+        background-color: getColor('secondary-bgc');
+    }
+
 }
 
 .container {
