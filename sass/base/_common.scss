@@ -26,6 +26,10 @@ ul {
         background-color: getColor('secondary-bgc');
     }
 
+    &--top-fix {
+        margin-top: -94px;
+    }
+
 }
 
 .container {

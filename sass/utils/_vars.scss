@@ -16,6 +16,10 @@ $colors: (
     'grey' : #757575,
 );
 
+$background-color: (
+    'grey': rgba(47, 48, 58, 0.8),
+);
+
 $box-shadow: (
     'card': "0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2)",
 );
@@ -30,6 +34,10 @@ $animation: (
 
 @function getColor($color) {
     @return map-get($colors, $color);
+}
+
+@function getBackgroundColor($bgc) {
+    @return map-get($background-color, $bgc);
 }
 
 @function getBoxShadow($bs) {
