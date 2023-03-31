@@ -35,6 +35,22 @@ ul {
   padding: 0 15px;
 }
 
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
+  color: #2196f3;
+  margin-right: 93px;
+}
+.logo--white {
+  color: white;
+}
+.logo--black {
+  color: black;
+}
+
 .button {
   width: 200px;
   height: 50px;

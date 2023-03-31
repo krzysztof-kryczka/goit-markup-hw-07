@@ -1,0 +1,14 @@
+.logo {
+    @include font($fw: 700, $fs: 26px, $lh: 31px, $ls: 0.03em);
+    font-family: getFont('ral');
+    color: getColor('secondary');
+    margin-right: 93px;
+
+    &--white {
+        color: white;
+    }
+
+    &--black {
+        color: black;
+    }
+}
