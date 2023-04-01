@@ -3,6 +3,10 @@
     font-family: getFont('ral');
     color: getColor('secondary');
     margin-right: 93px;
+    
+    &--footer {
+        margin-right: 0px;
+    }
 
     &--white {
         color: white;
