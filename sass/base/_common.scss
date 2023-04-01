@@ -18,6 +18,11 @@ ul {
     list-style-type: none;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -47,5 +52,16 @@ ul {
     &__flex{
         display: flex;
     }
+}
 
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
