@@ -457,6 +457,37 @@ ul {
   padding-top: 4px;
 }
 
+.address {
+  margin-right: 70px;
+}
+.address--footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.address__item {
+  color: #fff;
+  margin-top: 20px;
+}
+.address__link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-top: 9px;
+  -webkit-transition: color 250ms var(--brand-function-cubic);
+  transition: color 250ms var(--brand-function-cubic);
+}
+.address__link:is(:hover, :focus) {
+  color: #2196f3;
+}
+
 .newsletter {
   margin-top: 12px;
   margin-left: 70px;
