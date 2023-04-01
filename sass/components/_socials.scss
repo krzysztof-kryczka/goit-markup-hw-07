@@ -2,6 +2,19 @@
 
     @include flex-center;
     gap: 10px;
+    fill: getColor('light');
+    transition: background-color 250ms var(--brand-function-cubic);
+
+    &--footer { 
+        margin-top: 12px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__links {
+        display: flex;
+        gap: 10px;
+    }
 
     &__link {
         @include flex-center;
@@ -18,6 +31,20 @@
             fill: getColor('light');
             background-color: getColor('secondary');
         }
-    }
 
+        &--footer {
+            fill: getColor('light');
+            background-color: getBackgroundColor('svg-footer');
+        }
+    }
+    
+    &__title {
+            @include font($fw: 700, $fs: 14px, $lh: 16px, $ls: 0.03em);
+            margin-bottom: 20px;
+    
+            &--footer {
+                text-transform: uppercase;
+                color: getColor('light');
+            }
+    }
 }

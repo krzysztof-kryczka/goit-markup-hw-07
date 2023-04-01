@@ -216,6 +216,25 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 10px;
+  fill: #fff;
+  -webkit-transition: background-color 250ms var(--brand-function-cubic);
+  transition: background-color 250ms var(--brand-function-cubic);
+}
+.social--footer {
+  margin-top: 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.social__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
 }
 .social__link {
   display: -webkit-box;
@@ -242,6 +261,21 @@ ul {
 .social__link:is(:hover, :focus) {
   fill: #fff;
   background-color: #2196f3;
+}
+.social__link--footer {
+  fill: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.social__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+.social__title--footer {
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .clients {
@@ -412,10 +446,6 @@ ul {
   padding-top: 4px;
 }
 
-.footer {
-  background-color: black;
-}
-
 .newsletter {
   margin-top: 12px;
   margin-left: 70px;
@@ -469,15 +499,6 @@ ul {
           align-items: center;
   fill: #fff;
   padding: 10px 28px 10px 42px;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.newsletter__button:is(:hover, :focus) {
-  background-color: rgba(24, 140, 232, 0.68);
 }
 .newsletter__button > svg {
   margin-left: 22px;
