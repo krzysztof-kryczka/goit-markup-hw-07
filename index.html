@@ -408,54 +408,54 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>&times;</button>
-        <h2 class="modal-order-service-title">Zostaw swoje dane w formularzu poniżej</h2>
-        <form class="modal-order-service-form" name="order_service_form">
-          <label class="modal-order-service-label">
-            <span class="modal-order-service-text">Imię</span>
-            <input type="text" name="name" class="modal-order-service-input" />
-            <svg class="modal-order-service-icon">
+        <button type="button" class="modal__close" data-modal-close>&times;</button>
+        <h2 class="modal__title">Zostaw swoje dane w formularzu poniżej</h2>
+        <form class="modal__form" name="order_service_form">
+          <label class="modal__label">
+            <span class="modal__text">Imię</span>
+            <input type="text" name="name" class="modal__input" />
+            <svg class="modal__icon">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </label>
-          <label class="modal-order-service-label">
-            <span class="modal-order-service-text">Telefon</span>
-            <input type="tel" name="phone_number" class="modal-order-service-input" />
-            <svg class="modal-order-service-icon">
+          <label class="modal__label">
+            <span class="modal__text">Telefon</span>
+            <input type="tel" name="phone_number" class="modal__input" />
+            <svg class="modal__icon">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </label>
-          <label class="modal-order-service-label">
-            <span class="modal-order-service-text">E-mail</span>
-            <input type="email" name="email" class="modal-order-service-input" />
-            <svg class="modal-order-service-icon">
+          <label class="modal__label">
+            <span class="modal__text">E-mail</span>
+            <input type="email" name="email" class="modal__input" />
+            <svg class="modal__icon">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </label>
-          <label class="modal-order-service-label">
-            <span class="modal-order-service-text">Komentarz</span>
+          <label class="modal__label">
+            <span class="modal__text">Komentarz</span>
             <textarea
-              class="modal-order-service-textarea"
+              class="modal__textarea"
               name="feedback"
               rows="10"
               placeholder="Wprowadź tekst"
             ></textarea>
           </label>
-          <label class="modal-order-service-checkbox">
-            <span class="modal-order-service-checkbox-text"
+          <label class="modal__checkbox">
+            <span class="modal__checkboxtext"
               >Oświadczam iż akceptuję
-              <a href="#" class="modal-order-service-checkbox-link">Regulamin</a> i
-              <a href="#" class="modal-order-service-checkbox-link">Politykę Prywatności</a>.</span
+              <a href="#" class="modal__link">Regulamin</a> i
+              <a href="#" class="modal__link">Politykę Prywatności</a>.</span
             >
             <input
               type="checkbox"
               name="statute"
               value="Oświadczam iż akceptuję Regulamin i Politykę Prywatności."
             />
-            <span class="checkmark"></span>
+            <span class="modal__checkmark"></span>
           </label>
-          <div class="modal-order-service-buttons">
-            <button type="submit" class="btn modal-order-service-btn-send">Wyślij</button>
+          <div class="modal__buttons">
+            <button type="submit" class="button">Wyślij</button>
           </div>
         </form>
       </div>
