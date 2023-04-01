@@ -35,6 +35,17 @@ ul {
   padding: 0 15px;
 }
 
+.footer {
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .logo {
   font-weight: 700;
   font-size: 26px;

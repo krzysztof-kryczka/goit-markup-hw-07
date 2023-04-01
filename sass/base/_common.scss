@@ -38,3 +38,14 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.footer {
+    background-color: getColor('first-bgc');
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__flex{
+        display: flex;
+    }
+
+}
